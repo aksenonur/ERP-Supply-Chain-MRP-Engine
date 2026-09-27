@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "product_code": "DEF-DRONE-X1",
+      "description": "Tactical Recon Drone",
+      "bom": [
+        { "component_code": "CAM-MOD-01", "description": "Thermal Camera Unit", "qty_per_unit": 1 },
+        { "component_code": "MOTOR-SYS-02", "description": "Brushless Motor", "qty_per_unit": 4 },
+        { "component_code": "ALU-SHEET-05", "description": "Aluminum Chassis", "qty_per_unit": 2 }
+      ]
+    }
+  ],
+  "inventory": {
+    "CAM-MOD-01": { "on_hand": 5, "lead_time_days": 10, "unit_cost": 1200.0 },
+    "MOTOR-SYS-02": { "on_hand": 12, "lead_time_days": 5, "unit_cost": 150.0 },
+    "ALU-SHEET-05": { "on_hand": 50, "lead_time_days": 3, "unit_cost": 45.0 }
+  }
+}
